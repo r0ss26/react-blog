@@ -3,7 +3,9 @@ import { withRouter } from 'react-router-dom'
 import './Post.css';
 
 const Post = (props) => {
-  console.log(props)
+  
+  console.log(props);
+
   return (
     <article onClick={props.onClick} className='Post'>
       <h1>{props.title}</h1>
@@ -11,6 +13,7 @@ const Post = (props) => {
         <div className='Author'>{props.author}</div>
       </div>
     </article>
+  
   );
 };
 

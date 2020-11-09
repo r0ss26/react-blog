@@ -29,6 +29,9 @@
     color: #fa923f;
 }
 
-.Posts {
+.Blog a:active,
+.Blog a:hover,
+.Blog a.active {
     text-align: center;
+    color: red;
 }
